@@ -1,12 +1,12 @@
 import React from 'react';
 import './navbar.css';
 
-function Nabbar() {
+function Navbar() {
   return (
     <div>
-      <h1>Nabbar</h1>
+      <h1>Navbar</h1>
     </div>
   );
 }
 
-export default Nabbar;
+export default Navbar;
