@@ -2,14 +2,19 @@
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background: var(--color-footer);
+  /* background: var(--color-footer); */
 
-  background: radial-gradient(circle at top left, #1b78de 5%, #042c54 15%, #042c54 0) top left,
+  /* Todo: How to remove middle line of the webpage */
+  /* background: radial-gradient(circle at top left, #1b78de 5%, #042c54 15%, #042c54 0) top left,
     radial-gradient(circle at top right, #042c54 100%, #042c54 0) top right,
     radial-gradient(circle at bottom right, #1b78de 10%, #042c54 30%, #042c54 0) bottom right,
     radial-gradient(circle at bottom left, #042c54 100%, #042c54 0) bottom left;
   background-size: 50% 50%;
   background-repeat: no-repeat;
+  border: 0; */
+
+  background: radial-gradient(circle at top left, rgba(27, 120, 222, 0.9), transparent 150px),
+    radial-gradient(at bottom right, rgba(27, 120, 222, 0.9), rgba(4, 44, 84, 1) 400px);
 }
 
 .gpt3__whatgpt3-feature {
@@ -108,5 +113,10 @@
 
   .section__margin {
     margin: 0 !important;
+  }
+
+  .gpt3__whatgpt3 {
+    background: radial-gradient(circle at top left, rgba(27, 120, 222, 0.9), transparent 100px),
+      radial-gradient(at bottom right, rgba(27, 120, 222, 0.9), rgba(4, 44, 84, 1) 200px);
   }
 }
