@@ -1,12 +1,21 @@
 import React from 'react';
+import Feature from '../../components/feature/Feature';
 import './WHATGPT3.css';
 
-function WHATGPT3() {
+const WHATGPT3 = () => {
   return (
-    <div>
-      <h1>WHATGPT3</h1>
+    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+      <div className="gpt3__whatgpt3__top">
+        <Feature />
+      </div>
+      <div className="gpt3__whatgpt3__middle"></div>
+      <div className="gpt3__whatgpt3__bottom">
+        <Feature />
+        <Feature />
+        <Feature />
+      </div>
     </div>
   );
-}
+};
 
 export default WHATGPT3;

@@ -3,7 +3,7 @@ import ai from '../../assets/ai.png';
 import people from '../../assets/people.png';
 import './header.css';
 
-function Header() {
+const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
@@ -29,6 +29,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
