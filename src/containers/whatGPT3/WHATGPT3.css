@@ -100,8 +100,8 @@
     line-height: 40px;
   }
 
-  .section__margin {
-    margin: 2rem 3rem !important;
+  .gpt3__whatgpt3.section__margin {
+    margin: 2rem 3rem;
   }
 }
 
@@ -111,8 +111,8 @@
     min-width: 100%;
   }
 
-  .section__margin {
-    margin: 0 !important;
+  .gpt3__whatgpt3.section__margin {
+    margin: 0;
   }
 
   .gpt3__whatgpt3 {
