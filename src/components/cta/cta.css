@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
   .gpt3__cta-content p {
     font-size: 15px;
   }
@@ -61,10 +61,10 @@
   .gpt3__cta-content h1 {
     font-size: 20px;
   }
+
   .gpt3__cta-btn button {
     font-size: 15px;
-    width: 160px;
-    height: 40px;
+    min-width: 150px;
   }
 }
 
@@ -73,8 +73,22 @@
     flex-direction: column;
   }
 
+  .gpt3__cta-content p {
+    font-size: 13px;
+  }
+
+  .gpt3__cta-content h1 {
+    font-size: 16px;
+  }
+
   .gpt3__cta-btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+
+  .gpt3__cta-btn button {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+    min-width: 100px;
   }
 
   .gpt3__cta.section__margin {
