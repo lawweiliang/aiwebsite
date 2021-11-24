@@ -10,8 +10,7 @@
   align-items: flex-start;
   flex-direction: column;
 
-  text-align: left;
-  /* min-width: 420px; */
+  min-width: 420px;
   margin-right: 5rem;
 }
 
